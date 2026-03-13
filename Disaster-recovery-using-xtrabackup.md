@@ -1,4 +1,4 @@
-pada sesi ini, saya akan mengimplementasikan prosedur recovery data hingga titik waktu spesifik (PITR) dengan mengombinasikan physical full backup (menggunakan percona xtraBackup) dan binary log. Bertujuan untuk meminimalkan data loss akibat human error atau kegagalan sistem
+Implementasi prosedur recovery data hingga titik waktu spesifik (PITR) dengan mengombinasikan physical full backup (menggunakan percona xtraBackup) dan binary log. Bertujuan untuk meminimalkan data loss akibat human error atau kegagalan sistem
 
 fungsi binary log:
 - file binary log mencatat semua modifikasi data logis yang terjadi
