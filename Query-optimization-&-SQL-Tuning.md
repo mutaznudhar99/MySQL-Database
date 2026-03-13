@@ -1,4 +1,4 @@
-Pada sesi ini, saya akan mendemonstrasikan proses query optimization & database maintenance untuk menjaga integritas struktural, akurasi metadata statistik, dan efisiensi execution plan. Bertujuan mereduksi penggunaan sumber daya (resource consumption) dan meningkatkan throughput queri yang memiliki workload tinggi
+Demonstrasi proses query optimization & database maintenance untuk menjaga integritas struktural, akurasi metadata statistik, dan efisiensi execution plan. Bertujuan mereduksi penggunaan sumber daya (resource consumption) dan meningkatkan throughput queri yang memiliki workload tinggi
 
 
 1. Melakukan verifikasi integritas fisik pada struktur tabel. Mendeteksi data corrupt atau inkonsistensi pada struktur index
