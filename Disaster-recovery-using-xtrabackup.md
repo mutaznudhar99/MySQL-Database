@@ -7,7 +7,7 @@ The roles of Binary logs:
 
 
 
-1. Do modified mysqld.conf to activated binary logs, ensuring all data changes are recorded by the database instance
+1. Did modified mysqld.conf to activated binary logs, ensuring all data changes are recorded by the database instance
 
    <img width="831" height="145" alt="Screenshot (217)" src="https://github.com/user-attachments/assets/d6d54211-1e3a-4ecd-b46b-6af7a6ad3337" />
    
