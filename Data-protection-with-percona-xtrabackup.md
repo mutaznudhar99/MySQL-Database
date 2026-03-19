@@ -1,9 +1,9 @@
-I implemented a physical database migration to a new MySQL server using Percona XtraBackup. As an open-source tool, XtraBackup is an excellent alternative to MySQL Enterprise Backup.
+Implemented a physical database migration to a new MySQL server using Percona XtraBackup. As open-source tool, XtraBackup is excellent alternative to MySQL Enterprise Backup.
 
 Advantages of xtrabackup:
 - Open Source: Free to use, providing enterprise-level features for MySQL.
-- Hot Backup: It performs non-blocking backups for InnoDB, so the database stays online during the process.
-- Data Integrity: It ensures data consistency using the --prepare feature to apply transaction logs to the backup files.
+- Hot Backup: Performs non-blocking backups for InnoDB, the database stays online during the process.
+- Data Integrity: Ensures data consistency using the --prepare feature to apply transaction logs to the backup files.
 - Complete Features: Supports compression, parallel processing, incremental backups, and fast recovery.
 
 
@@ -55,7 +55,7 @@ Advantages of xtrabackup:
    <img width="1150" height="424" alt="Screenshot (203)" src="https://github.com/user-attachments/assets/af804b47-8db5-4409-b84b-93b8ed9d5c45" />
 
 
-7. Executed the --prepare command to apply the redo logs, ensuring the data is consistent
+7. Executed the --prepare command to apply the redo logs, ensuring the data consistent
 
    <img width="1687" height="334" alt="Screenshot (191)" src="https://github.com/user-attachments/assets/a22f692c-1277-435d-b630-1181169ed054" />
 
